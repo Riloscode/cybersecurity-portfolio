@@ -50,10 +50,33 @@ The objective of this lab is to build practical experience with Windows log anal
 | 4732 | User added to local group | May indicate privilege escalation or unauthorized group changes |
 | 1102 | Audit log cleared | May indicate an attempt to hide activity |
 
+
+
 ## Lab Setup
 
 This lab uses a Windows system with Event Viewer enabled. Events are reviewed under:
 
 ```text
 Event Viewer → Windows Logs → Security
+```
+### Finding 1: Privileged Logon Activity Identified
+
+Event ID `4672` was identified in the Windows Security logs. This event indicates that special privileges were assigned to a new logon session.
+
+The event displayed several sensitive privileges, including examples such as:
+
+- `SeLoadDriverPrivilege`
+- `SeBackupPrivilege`
+- `SeRestorePrivilege`
+- `SeDebugPrivilege`
+- `SeSystemEnvironmentPrivilege`
+- `SeImpersonatePrivilege`
+- `SeDelegateSessionUserImpersonatePrivilege`
+
+This activity is not automatically malicious because administrator accounts commonly generate Event ID `4672`. However, in a SOC investigation, this event should be reviewed alongside Event ID `4624` successful logons, Event ID `4625` failed logons, and Event ID `4688` process creation activity to determine whether the privileged access was expected.
+
+### Screenshot Evidence
+
+![Event ID 4672 - Special Logon](../screenshots/windows-event-log-threat-hunting/4672-special-logon-privileges.png)
+
 
