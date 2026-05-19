@@ -40,7 +40,9 @@ Built a home Security Operations Center lab using UTM, Ubuntu ARM, Docker, Wazuh
 
 This project will focus on analyzing Windows security events to investigate failed logins, successful logons, privilege use, PowerShell activity, and suspicious process execution.
 
-**Status:** Planned
+**Status:** In Progress
+
+[Windows Event Log Threat Hunting Lab](projects/windows-event-log-threat-hunting.md)
 
 ### 3. Vulnerability Assessment Lab
 
