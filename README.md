@@ -82,6 +82,25 @@ This project will focus on adding security event logging, failed login tracking,
 - SQL
 - Technical Writing
 
+## Current Cybersecurity Learning
+
+- SOC Level 1 Path — TryHackMe
+- CompTIA CySA+ Training — In Progress
+- Windows Event Log Threat Hunting Lab — In Progress
+### Completed
+1. Introduction to Large Language Models
+   - Status: Completed
+   - Focus: LLM fundamentals, AI model behavior, generative AI concepts
+
+2. Introduction to Microsoft Entra Agent ID
+   - Status: Completed
+   - Focus: Identity security, Microsoft Entra, agent identity concepts, IAM fundamentals
+
+### In Progress
+
+3. Implement Security for AI
+   - Status: In Progress
+
 ## Purpose
 
 The purpose of this portfolio is to demonstrate practical cybersecurity ability through hands-on projects. Each project is designed to show how I investigate issues, document evidence, explain risk, and recommend remediation.
