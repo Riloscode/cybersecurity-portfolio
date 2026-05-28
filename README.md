@@ -97,6 +97,8 @@ This project will focus on adding security event logging, failed login tracking,
    - Focus: Identity security, Microsoft Entra, agent identity concepts, IAM fundamentals
   
 ## AI Security Learning
+- [Microsoft Learn: Fundamentals of AI Security](learning-log/ai-security-fundamentals-microsoft-learn.md)  
+  Covered AI-specific risks including prompt injection, jailbreaking, model manipulation, data exfiltration, overreliance, OWASP Top 10 for LLM Applications, MITRE ATLAS, and NIST AI RMF.
 
 - [Microsoft Learn: Fundamentals of AI Security](learning-log/ai-security-fundamentals-microsoft-learn.md)  
   Covered AI-specific risks including prompt injection, jailbreaking, model manipulation, data exfiltration, overreliance, OWASP Top 10 for LLM Applications, MITRE ATLAS, and NIST AI RMF.
