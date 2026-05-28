@@ -95,6 +95,14 @@ This project will focus on adding security event logging, failed login tracking,
 2. Introduction to Microsoft Entra Agent ID
    - Status: Completed
    - Focus: Identity security, Microsoft Entra, agent identity concepts, IAM fundamentals
+  
+## AI Security Learning
+
+- [Microsoft Learn: Fundamentals of AI Security](learning-log/ai-security-fundamentals-microsoft-learn.md)  
+  Covered AI-specific risks including prompt injection, jailbreaking, model manipulation, data exfiltration, overreliance, OWASP Top 10 for LLM Applications, MITRE ATLAS, and NIST AI RMF.
+
+- [Microsoft Learn: Analyze AI Identity Risks Using Microsoft Defender XDR](learning-log/analyze-ai-identity-risks-microsoft-defender-xdr.md)  
+  Covered AI identity risks, excessive permissions, least privilege for AI agents, Microsoft Defender XDR visibility, and identity-based attack path analysis.
 
 ### In Progress
 
